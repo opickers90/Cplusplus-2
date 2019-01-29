@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int num;
+	
+	cout << "Please Insert Number: \n";
+	cin >> num;
+
+	int a = num;
+	do {
+	cout << "Number is: " << a  << endl;
+	a++;
+	}
+	while (a<10);
+return 0;
+}
